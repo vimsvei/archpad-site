@@ -52,6 +52,19 @@ const ButtonLink2 = ({item}) => {
   )
 }
 
+const StackItem = ({ item }) => {
+  const { color } = item;
+  return (
+    <>
+      {
+        color === 'inherit'
+          ? <ButtonLink1 item={item}/>
+          : <ButtonLink2 item={item}/>
+      }
+    </>
+  )
+}
+
 
 const Header = ({item, ...others}) => {
   const { logo, pagesCollection } = item;
@@ -85,15 +98,7 @@ const Header = ({item, ...others}) => {
                 items.map(page => {
                   const { color, sys } = page;
                   const { id } = sys;
-                  return (
-                    <>
-                      {
-                        color === 'inherit'
-                          ? <ButtonLink1 key={id} item={page}/>
-                          : <ButtonLink2 key={id} item={page}/>
-                      }
-                    </>
-                  )
+                  return <StackItem key={id} item={page}/>
                 })
               }
             </Stack>

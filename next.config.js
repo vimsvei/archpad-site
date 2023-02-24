@@ -2,9 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  images: {
-    loader: 'custom',
-  },
+  // images: {
+  //   loader: 'custom',
+  // },
 }
 
 module.exports = nextConfig

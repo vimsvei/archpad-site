@@ -6,6 +6,7 @@ import NextLink from 'next/link';
 
 // M-UI
 import { styled } from '@mui/material/styles';
+import Page from "./Page";
 
 // =============================|| Next Link Component ||============================= //
 
@@ -26,5 +27,7 @@ NextLinkComposed.propTypes = {
   prefetch: PropTypes.func,
   locale: PropTypes.string
 };
+
+NextLinkComposed.displayName = 'NextLinkComposed';
 
 export default NextLinkComposed;

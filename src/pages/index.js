@@ -4,7 +4,7 @@ import Header from "../components/landing/Header";
 import {Footer} from "../components/landing/Footer";
 import {Feature} from "../components/landing/Feature";
 import {HeaderWrapper} from "../components/wrappers/HeaderWrapper";
-import {SecondWrapper, SecondWrapper2} from "../components/wrappers/SecondWrapper";
+import {SecondWrapper} from "../components/wrappers/SecondWrapper";
 
 import {getTitle} from "./api/getTitle";
 import {getFeatures} from "./api/getFeatures";

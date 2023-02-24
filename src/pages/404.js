@@ -3,7 +3,6 @@ import {Container, Grid, Typography} from "@mui/material";
 import {ErrorImage} from "../components/images";
 import {gridSpacing} from "../constant";
 import {getNotFoundError} from "./api/getNotFoundPage";
-import Image from "next/image";
 
 export default function NotFound({ item }) {
   const { title, subtitle, image } = item;

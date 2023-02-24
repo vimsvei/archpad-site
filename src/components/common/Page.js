@@ -6,6 +6,7 @@ import Head from 'next/head';
 
 // material-ui
 import { Box } from '@mui/material';
+import MyApp from "../../pages/_app";
 
 // ==============================|| Page - SET TITLE & META TAGS ||============================== //
 
@@ -26,5 +27,7 @@ Page.propTypes = {
   meta: PropTypes.node,
   title: PropTypes.string
 };
+
+Page.displayName = 'Page';
 
 export default Page;

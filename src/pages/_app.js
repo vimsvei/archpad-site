@@ -1,7 +1,6 @@
 import {ConfigProvider} from "../contexts/ConfigContext";
 import ThemeCustomization from "../themes";
 import NavigationScroll from "../layout/NavigationScroll";
-import {Head} from "next/document";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -16,5 +15,7 @@ function MyApp({ Component, pageProps }) {
     </>
   )
 }
+
+MyApp.displayName = 'MyApp';
 
 export default MyApp

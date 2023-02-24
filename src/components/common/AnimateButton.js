@@ -3,6 +3,7 @@ import React from 'react';
 
 // third-party
 import { motion, useCycle } from 'framer-motion';
+import NextLinkComposed from "./NextLinkComposed";
 
 // ==============================|| ANIMATION BUTTON ||============================== //
 
@@ -89,5 +90,7 @@ AnimateButton.defaultProps = {
     tap: 0.9
   }
 };
+
+AnimateButton.displayName = 'AnimateButton';
 
 export default AnimateButton;
