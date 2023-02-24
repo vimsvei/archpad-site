@@ -1,0 +1,117 @@
+// paper & background
+$paper: #ffffff;
+$default: #ffffff;
+$neutral: #f9fafb;
+
+// primary
+$primaryLight: #f6fff0;
+$primaryMain: #7fc844;
+$primaryDark: #599528;
+$primary200: #d3ffb0;
+$primary800: #366213;
+
+// secondary
+$secondaryLight: #f4f7ff;
+$secondaryMain: #6f87d8;
+$secondaryDark: #4a5fa5;
+$secondary200: #c4d2ff;
+$secondary800: #2b3c72;
+
+// success Colors
+$successLight: #f1fffc;
+$success200: #b2ffed;
+$successMain: #4bc3a7;
+$successDark: #2d9079;
+
+// error
+$errorLight: #fff1ef;
+$errorMain: #ce4d42;
+$errorDark: #9b2f26;
+
+// orange
+$orangeLight: #fffaed;
+$orangeMain: #dfb136;
+$orangeDark: #ac851c;
+
+// warning
+$warningLight: #ffeef4;
+$warningMain: #d2386c;
+$warningDark: #9f1e49;
+
+// grey
+$grey50: #fafafa;
+$grey100: #f9fafb;
+$grey200: #f4f6f8;
+$grey300: #dfe3e8;
+$grey400: #c4cdd5;
+$grey500: #919eab;
+$grey600: #637381;
+$grey700: #454f5b;
+$grey800: #212b36;
+$grey900: #161c24;
+
+$textPrimary: $grey800;
+$textSecondary: $grey600;
+$textDisabled: $grey500;
+
+$divider: #919eab;
+
+
+:export {
+  // paper & background
+  paper: $paper;
+  default: $default;
+  neutral: $neutral;
+
+  // primary
+  primaryLight: $primaryLight;
+  primary200: $primary200;
+  primaryMain: $primaryMain;
+  primaryDark: $primaryDark;
+  primary800: $primary800;
+
+  // secondary
+  secondaryLight: $secondaryLight;
+  secondary200: $secondary200;
+  secondaryMain: $secondaryMain;
+  secondaryDark: $secondaryDark;
+  secondary800: $secondary800;
+
+  // success
+  successLight: $successLight;
+  success200: $success200;
+  successMain: $successMain;
+  successDark: $successDark;
+
+  // error
+  errorLight: $errorLight;
+  errorMain: $errorMain;
+  errorDark: $errorDark;
+
+  // orange
+  orangeLight: $orangeLight;
+  orangeMain: $orangeMain;
+  orangeDark: $orangeDark;
+
+  // warning
+  warningLight: $warningLight;
+  warningMain: $warningMain;
+  warningDark: $warningDark;
+
+  // grey
+  grey50: $grey50;
+  grey100: $grey100;
+  grey200: $grey200;
+  grey300: $grey300;
+  grey500: $grey500;
+  grey600: $grey600;
+  grey700: $grey700;
+  grey800: $grey800;
+  grey900: $grey900;
+
+  textPrimary: $textPrimary;
+  textSecondary: $textSecondary;
+  textDisabled: $textDisabled;
+
+  divider: $divider
+}
